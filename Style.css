@@ -1,0 +1,61 @@
+.hero-section {
+  background-color: #495057; /* Adjust to a lighter shade if needed */
+  color: #ffffff;
+}
+
+.icon-button {
+  font-size: 2em;
+  margin: 0 10px;
+  color: #ffffff; /* Ensure icons are visible */
+  border: none;
+  background: none;
+}
+
+.icon-button.github { color: #ffffff; }
+.icon-button.linkedin { color: #0e76a8; }
+.icon-button.email { color: #D44638; }
+
+.icon-button:hover {
+  opacity: 0.7;
+}
+
+.skills-section {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.skill-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-icon {
+  font-size: 3em;
+}
+
+.projects-section {
+  margin-bottom: 50px;
+}
+
+.footer-section {
+  background-color: #343a40;
+  color: #adb5bd;
+  position: relative;
+  clear: both;
+}
+
+.contact-info p, .social-media a {
+  color: #adb5bd;
+}
+
+.contact-info a:hover {
+  color: #ffffff;
+}
+
+.social-media .icon-button {
+  font-size: 2em;
+}
+
+.social-media .icon-button:hover {
+  opacity: 0.7;
+}
